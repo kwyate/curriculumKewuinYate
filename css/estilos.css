@@ -10,10 +10,13 @@ p{
     background-size: cover;
 }
 .bg-img-minimizar{
-	background-image: url(../img/background.jpeg);
-    background-size: cover;
     height: 15vh;
     transition: all 1.5s;
+}
+.bg-img-maximizar{
+	height: 100vh !important;
+    transition: all 1.5s;
+    overflow: hidden;
 }
 .capa-opacity{
 	height: 100%;
